@@ -46,6 +46,8 @@ function flipping_cards() {
 
             // Check Success
             check_success(false);
+          } else {
+            wrong_tries.textContent++;
           }
           setTimeout(() => {
             if (selected[0] !== undefined && selected[1] !== undefined) {
