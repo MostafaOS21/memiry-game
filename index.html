@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="start-game">
+      <span>Start Game</span>
+    </div>
+    <div class="fail">
+      <span>Game Over</span>
+    </div>
+    <div class="main-game">
+      <div class="scoreboard">
+        <div class="player">Hello: <span class="name"></span></div>
+        <div class="time">
+          <span class="min">00</span>:<span class="sec">00</span>
+        </div>
+        <div class="wrong-tries">Wrong Tries: <span class="count">0</span></div>
+      </div>
+
+      <div class="box-of-cards">
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-1.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-1.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-2.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-2.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-3.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-3.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-4.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-4.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-5.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-5.png" alt="" />
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-6.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-6.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-7.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-7.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-8.png" alt="" />
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-8.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-9.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-9.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-10.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front active"></div>
+          <div class="face back">
+            <img src="imgs/img-10.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio class="right-answer" src="sounds/right_answer.mp3"></audio>
+    <audio class="time-end" src="sounds/time_end.mp3"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
