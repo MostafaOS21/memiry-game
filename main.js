@@ -86,7 +86,7 @@ function get_name() {
   cards.forEach((card) => card.classList.add("flipped"));
   setTimeout(() => {
     cards.forEach((card) => card.classList.remove("flipped"));
-  }, 800);
+  }, 1200);
 
   time_counter();
 }
